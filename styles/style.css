@@ -9,18 +9,25 @@ White: #FFF
 body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 21px;
     font-weight: 300;
+    color: #1A1A1A;
 }
 
 /* Header section */
+header {
+    
+}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 10px 0;
+    position: fixed;
+    background-color: white;
+    padding: 15px 0;
 }
 
 
@@ -37,6 +44,10 @@ nav {
 a {
     text-decoration: none;
     padding: 10px;
+}
+
+a:visited {
+    color: #00B172;
 }
 
 .landing {
@@ -107,6 +118,7 @@ h2 {
 
 .teaser h3 {
     color: #00B172;
+    font-size: 20px;
 }
 
 
@@ -115,8 +127,8 @@ h2 {
 
 .section-2 {
     background-color: #00B172;
-    width: 800px;
-    padding: 30px;
+    width: 88%;
+    padding: 0 30px;
     margin: 20px;
 }
 
@@ -132,6 +144,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 12px;
 }
 
 .list {
@@ -140,7 +153,8 @@ h2 {
 
 .list h3 {
     color: white;
-    font-size: 20px;
+    font-size: 19px;
+    padding: 10px 0 3px;
 }
 
 .list p {
