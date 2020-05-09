@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Header section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.spotify-logo {
+    width: 130px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.landing {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.landing p {
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+/****** Teaser / Section 1 ******/
+/****************************/
+
+
+section {
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+.teaser {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+h2 {
+    text-align: center;
+    padding: 18px 0 20px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+    font-weight: 500;
+}
+
+.teaser div {
+    text-align: center;
+    width: 20%;
+}
+
+.teaser img {
+    width: 70px;
+    height: 60px;
+}
+
+.teaser h3 {
+    color: #00B172;
+}
+
+
+/*******  Section 2  ******/
+/**************************/
+
+.section-2 {
+    background-color: #00B172;
+    width: 800px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.section-2 h2 {
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+}
+
+.green-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {
+    width: 45%;
+}
+
+.list h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.list p {
+    color: white;
+}
+
+.white-logo {
+    width: 90px;
+    height: 90px;
+}
+.app-img {
+    width: 180px;
+    height: 350px;
+}
